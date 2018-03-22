@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ejercicioamigos</string>
+    <string name="carlos">Carlos</string>
+    <string name="obdu">Obdu</string>
+    <string name="douglas">Douglas</string>
+    <string name="novia">Novia</string>
+    <string name="hugo">Hugo</string>
+    <string name="karla">karla</string>
+    <string name="sebastian">Sebastian</string>
+    <string name="sara">Sara</string>
+    <string name="pedro">pedro</string>
+</resources>

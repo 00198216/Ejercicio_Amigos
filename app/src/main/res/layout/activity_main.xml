@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90A4AE"
+    tools:context="com.example.elsalvador.ejercicioamigos.MainActivity">
+
+
+
+
+    <View
+
+    android:id="@+id/Mesa1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+    android:layout_height="75dp"
+    android:layout_width="75dp"
+    android:background="#FF80AB"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="3dp"
+        android:text="@string/karla"
+        android:textColor="#212121"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="3dp"
+        android:text="@string/sebastian"
+        android:textColor="#212121"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="23dp"
+        android:text="@string/hugo"
+        android:textColor="#212121"
+        android:textSize="12dp"/>
+
+
+    <View
+        android:id="@+id/Mesa2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:background="#00E676"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/novia"
+        android:textColor="#212121"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/douglas"
+        android:textColor="#212121"
+        android:textSize="12dp"/>
+
+    <View
+        android:id="@+id/Mesa3"
+        android:layout_alignParentBottom="true"
+       android:layout_marginBottom="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:background="#2196F3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/obdu"
+        android:textColor="#212121"
+        android:textSize="12sp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="50dp"
+    android:text="@string/carlos"
+    android:textColor="#212121"
+    android:textSize="12sp"/>
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="80dp"
+    android:layout_marginBottom="20dp"
+    android:text="@string/sara"
+    android:textColor="#212121"
+    android:textSize="12sp"/>
+
+    <View
+
+        android:id="@+id/Mesa4"
+        android:layout_centerInParent="true"
+        android:layout_height="75dp"
+        android:layout_width="75dp"
+        android:background="#F4511E"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Mesa4"
+        android:layout_centerHorizontal="true"
+        android:text="@string/pedro"
+
+        android:textColor="#212121"
+        android:textSize="12sp"/>
+
+</RelativeLayout>
